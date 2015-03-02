@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CD65A01AA45074004BE38B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD659F1AA45074004BE38B /* DetailViewController.swift */; };
 		05D91F8C1A88A154009421A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D91F8B1A88A154009421A0 /* AppDelegate.swift */; };
 		05D91F8E1A88A154009421A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D91F8D1A88A154009421A0 /* ViewController.swift */; };
 		05D91F911A88A154009421A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D91F8F1A88A154009421A0 /* Main.storyboard */; };
 		05D91F931A88A154009421A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D91F921A88A154009421A0 /* Images.xcassets */; };
 		05D91F961A88A154009421A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D91F941A88A154009421A0 /* LaunchScreen.xib */; };
 		05D91FA21A88A154009421A0 /* TableViewLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D91FA11A88A154009421A0 /* TableViewLearnTests.swift */; };
+		05D91FAC1A88B4C4009421A0 /* TodoThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D91FAB1A88B4C4009421A0 /* TodoThing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05CD659F1AA45074004BE38B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		05D91F861A88A154009421A0 /* TableViewLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D91F8A1A88A154009421A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D91F8B1A88A154009421A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		05D91F9B1A88A154009421A0 /* TableViewLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D91FA01A88A154009421A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D91FA11A88A154009421A0 /* TableViewLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLearnTests.swift; sourceTree = "<group>"; };
+		05D91FAB1A88B4C4009421A0 /* TodoThing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoThing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				05D91F921A88A154009421A0 /* Images.xcassets */,
 				05D91F941A88A154009421A0 /* LaunchScreen.xib */,
 				05D91F891A88A154009421A0 /* Supporting Files */,
+				05D91FAB1A88B4C4009421A0 /* TodoThing.swift */,
+				05CD659F1AA45074004BE38B /* DetailViewController.swift */,
 			);
 			path = TableViewLearn;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D91F8E1A88A154009421A0 /* ViewController.swift in Sources */,
+				05D91FAC1A88B4C4009421A0 /* TodoThing.swift in Sources */,
 				05D91F8C1A88A154009421A0 /* AppDelegate.swift in Sources */,
+				05CD65A01AA45074004BE38B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				05D91FA71A88A154009421A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D91FA81A88A154009421A0 /* Build configuration list for PBXNativeTarget "TableViewLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				05D91FAA1A88A154009421A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
